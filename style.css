@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: #68a4ff;
+  }
+
+  canvas {
+    display: block;
+  }
+
+h1 {
+    font-size: 400%;
+}
+
+h2 {
+    font-size: 200%;
+}
+
+.section-title h1{
+  margin-left:10%;
+  font-weight: bolder;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  color: #0066ff;
+  font-family: 'MiFuente', sans-serif;
+}
+
+.section-title{
+  background-color: #ffffff;
+  padding: 1%;
+  max-width: 100%;
+  margin-bottom: 3%;
+}
+
+.col-md-4 img{
+width: 95%;
+margin: 3%;
+}
+
+/*SANDRA: IMATGE DEL RECTANGLE DE NOTÍCIES*/
+.card {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card-title {
+  font-size: 200%;
+}
+
+.card-body{
+  margin-right: 0%;
+  margin-left: 4%;
+  color: #0066ff;
+}
+
+.card-body-text2{
+  background-color: #0066ff;
+  margin-bottom: 3%;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.card-text1{
+  margin-right: 0%;
+  padding-right: 0%;
+}
+
+.spotify iframe {
+  padding: 1%;
+  max-width: 50%;
+  max-height: auto;
+  justify-content: center; 
+  box-align: center;
+}
+
+#pxx {
+  display: flex;            
+  justify-content: center;     
+  align-items: center;        
+  width: 100%;                 
+  margin: 0 auto;              
+  padding: 20px 0;   
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row-reverse;
+ /* margin: 1.5% 1% 1.5% 5% ;*/
+   margin-left: 0%;
+}
+
+.bg-body-tertiary1 {
+  --bs-bg-opacity: 0;
+  background-color: #0066ff;
+  margin-left: 6%; 
+  margin-right:10%; 
+  justify-content: flex-end;
+}
+
+.header{
+  padding: 0%;
+  border: 0px;
+  background: #0066ff;
+  display: grid;
+  /*
+  grid-template-columns: max-content auto max-content;*/
+}
+
+.llista__header{
+    flex-direction: row; 
+    background: #0066ff;
+    /* flex-flow  */ /* abreviatura de las propiedades flex-directiony flex-wrap, que juntas definen los ejes principal y transversal del contenedor flexible*/
+    justify-content: center; 
+    align-items: center; 
+    /*align-content: */ /*no tiene ningún efecto cuando solo hay una línea de elementos flexibles.*/
+    /* height: 10%; */ /*altura*/
+    display: flex;
+    margin: 0%;
+}
+
+.logo1 img{
+  max-width: 50%;
+  display: inline-block;
+  margin: 0.5em;
+  margin-left: 20%;
+  padding: 0.5em;
+}
+
+
+.noticia1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+footer{
+  background-color: #0066ff;
+  margin: 0%;
+}
+
+.nav-underline{
+  margin-left: 6%; margin-right:10%; justify-content: flex-end;
+}
+
+.nav-item{
+  grid-template-columns: 1fr 7fr;
+}
+
+@font-face {
+  font-family: 'MiFuente';
+  src: url('fonts/Horizon-updated/horizon.otf') format('truetype');
+}
+
